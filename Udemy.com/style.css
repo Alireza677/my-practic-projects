@@ -1,0 +1,475 @@
+
+*{
+    box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color:#5624d0
+}
+.navbar{
+    width: 100wv;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    
+    flex-grow: inherit;
+    box-shadow: 0px 1px 15px 2px rgb(184, 183, 183);
+    height: 60px;
+   
+}
+.mob-navbar{
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    display: flex;
+    box-shadow: 0px 1px 15px 2px rgb(201, 199, 199);
+    
+}
+
+.navbar img {
+
+    max-width: 100%;
+    height: 34px;
+    vertical-align: middle;
+    
+}
+.mob-navbar{
+
+}
+.mob-navbar img{
+    max-width: 100%;
+    height: 34px;
+    vertical-align: middle;
+
+}
+.navbar a {
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.navbar ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar-categories{
+    position: relative;
+}
+.categories{
+    display: flex;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.navbar-search{
+    min-width:200px ;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid gray;
+    padding-left:5px;
+    border-radius: 100px;
+    flex-grow: 1;
+    background-color: rgba(244, 245, 245, 0.496);
+
+}
+.categories {
+    display: flex;
+    position: relative;
+    height: 60px;
+    
+    
+}
+
+.dropbtn ,.nav-udemy-business{
+    background-color: transparent;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 50px;
+    width: 300px;
+    min-width: 160px;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropbtn:hover{color:#5624d0; }
+  .dropdown-content a:hover{color:#5624d0; }
+
+
+
+.icon{
+    color: #1c1d1f;
+    fill: currentColor;
+    display:inline-block
+}
+.navbar-search input{
+   
+    border: none;
+    height: 2.5em;
+    background-color: transparent;
+}
+.navbar-search input:focus{
+    outline: none;
+}
+.search-button{
+    background-color: transparent;
+    border: none;
+    
+} 
+.link-language{
+    font-size: 20px;
+}
+
+
+
+.dropdown-content-two button{
+    
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+.dropdown-content p{
+    text-align: center;
+}
+
+.udemy-business {
+    display: flex;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.dropdown-two{
+    position: relative;
+    display: inline-block;
+
+    
+}
+
+.dropdown-content-two{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 55px;
+    width: 200px;
+    min-width: 160px;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+    
+}
+.dropdown-content-two p{
+    text-align: center;
+    font-weight: 600;
+}
+.dropdown-content-two button{
+    align-self: center;
+    
+}
+
+.dropdown-two:hover .dropdown-content-two {display: block;}
+
+.ud-icon {
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 850px) {
+
+    .navbar{display: none;}
+}
+@media screen and (min-width: 851px) {
+
+    .mob-navbar{display: none;}
+}
+
+.login{
+    background-color: transparent;
+    border: 1px solid #252525;
+    height: 30px;
+    width: 60px;
+    margin: 4px 8px;
+
+  }
+  .login:hover ,.link-language:hover {
+    background-color: #f1f1f1;
+  }
+  .sign-up{
+    background-color: #252525;
+    border: 1px solid #252525;
+    height: 30px;
+    width: 60px;
+    margin: 4px 8px;
+    color: #ffffff;
+  }
+  .sign-up:hover{
+background-color: #808080;
+  }
+  .link-language{
+    background-color: transparent;
+    border: 1px solid #252525;
+    height: 30px;
+    width: 30px;
+    margin: 4px 8px;
+    
+  }
+  .main-div{
+    margin: 20px;
+  }
+  .banner{
+    
+    padding: 20px;
+    line-height: 20px;
+  }
+  .banner h1{
+    font-family:Georgia, 'Times New Roman', Times, serif
+    padding: 20px;
+    font-weight: 700;
+    font-size: 2.3rem;
+    
+  }
+  .banner h2{
+    padding: 5px 5px 5px 20px;
+    font-size: 18px;
+    margin: 0;
+  }
+  .link-java{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+   .banner-link-span a{
+    color: #5624d0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .banner-link-span a:hover{
+    color: #3f1b9c;
+  }
+  .banner-svg-span{
+    display: flex;
+    
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    align-items: center;
+    
+  }
+  .banner-svg-span p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 5px;
+    font-family: sans-serif ;
+    letter-spacing: 1px;
+  }
+  .user-img{
+    width: 25px;
+    
+  }
+  .banner-svg-span{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .courses{
+    margin-top: 1.8rem;
+    padding-left: 40px;
+    
+  }
+  .courses h2{
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .menu{
+    width: 350px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 20px 0px ;
+    font-family: sans-serif;
+    font-weight: 600;
+
+  }
+  .menu::after{
+    content: '';
+    background-color: #8d8b8b;
+    width: 1200px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.menu a{
+    color: #616060;
+    text-decoration:none;
+}
+.menu a:hover{
+    color: #252525;
+    
+}
+.banner-row-education{
+    display: flex;
+    flex-direction: column;
+}
+.the-java-script{
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+.the-java-script h3 ,.the-java-script-hover h3{
+    font-size: 17px;
+    padding: 10px 0px;
+    line-height: 1.5rem;
+    font-weight: 600;
+    
+    font-family: sans-serif ;
+
+}
+.the-java-script p{
+    color: #616060;
+    font-size: 15px;
+    padding-bottom: 15px;
+    font-family: sans-serif ;
+
+}
+.pricing{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.the-java-script button , .the-java-script-hover-button{
+    width: 60%;
+    left: 0;
+    background-color: rgb(241, 241, 127);
+    border: none;
+    padding: 4px 8px;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+.the-java-script-hover {
+    width: 350px;
+    background-color: #fafafa;
+    
+    display:none ;
+    position: absolute;
+    padding: 15px;
+    line-height: 1.5rem;
+    border: 1px solid rgb(212, 212, 212);
+
+}
+.banner-row-education{
+    display: flex;
+    flex-direction: row;
+}
+.banner-row-block{
+    width: 500px;
+    display:flex;
+    flex-flow: row;
+    
+}
+.banner-row-block:hover .the-java-script-hover{ display: block;}
+.descryption{
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.the-java-script-hover p{
+    font-size: 14px;
+    background-color: #f1f1f1;
+    font-family: sans-serif;
+}
+.the-java-script-hover ul {
+padding-left: 20px;
+}
+.add-to-my-cart{
+    background-color:#8710d8;
+    width: 150px;
+    height: 45px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #f1f1f1;
+    border: none;
+    margin: 15px;
+    
+}
+.add-to-my-cart:hover{background-color: #a03be4;}
+.add-cart{
+    display: flex;
+    align-items: center;
+}
+.add-cart-button{
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.img-heart{
+    width: 40px;
+    padding: 2px;
+}
+.learn-table{
+    padding-left: 40px;
+    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    justify-content: center;
+    
+}
+.learn-table button{
+    font-weight: 600;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    padding: 8px 16px;
+    background-color: transparent;
+    margin: 6px;
+    border: 1px solid rgb(196, 194, 194);
+}
+.learn-table button:hover{ background-color: #fafafa;}
+.learn-more h3{ padding-left: 40px;}

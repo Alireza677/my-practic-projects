@@ -1,0 +1,30 @@
+.box1{
+    border: 2px solid black;
+    width: calc(100vw - 100px);
+    height: calc(100vw - 100px);
+    max-width: calc(100vw - 300px);
+    max-height: calc(100vw - 300px);
+    background-color: blue;
+    position: relative;
+    margin: auto;
+    top: 50px;
+}
+.box2{
+    border: 2px solid black;
+    width:calc(100% - 5px);
+    height: calc(100% - 5px);
+    background-color: rgb(48, 48, 66);
+    position:absolute ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box3{
+    border: 2px solid black;
+    width:calc(100% - 5px);
+    height: calc(100% - 5px);
+    
+    background-color: rgb(127, 45, 134);
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+}
